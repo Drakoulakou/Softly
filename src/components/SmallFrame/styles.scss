@@ -1,0 +1,32 @@
+.small-frame {
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 2px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main-title {
+        text-align: initial;
+        margin: 0px 0 40px 25px;
+    }
+
+    p {
+        font-size: 30px;
+        color: white;
+        font-weight: 300;
+        letter-spacing: 4px;
+
+    }
+
+    a {
+        width: 250px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 auto;
+        color: white;
+        letter-spacing: 2px;
+    }
+}

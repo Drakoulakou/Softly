@@ -1,0 +1,33 @@
+.nav-bar-menu {
+    height: 54px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .right-menu {
+        display: flex;
+        flex-flow: row;
+        align-items: self-start;
+        justify-content: space-between;
+
+        .burger-menu {
+            margin-right: 15px;
+        }
+    }
+
+    .left-menu {
+        display: flex;
+        flex-flow: row;
+        align-items: self-start;
+        justify-content: space-between;
+
+        .shopping-bag {
+            margin-left: 15px;
+        }
+    }
+}
