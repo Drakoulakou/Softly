@@ -4,7 +4,7 @@ function SmallFrame({ image }){
     return(
         <div className='small-frame' style={{ backgroundImage: `url(${image})` }}>
             <div className='main-title'>
-                <p className='title'>ΗΛΕΚΤΡΙΚΟΙ <br /> ΑΡΩΜΑΤΙΣΤΕΣ</p>
+                <p className='frame-title'>ΗΛΕΚΤΡΙΚΟΙ <br /> ΑΡΩΜΑΤΙΣΤΕΣ</p>
                 <a className='link' href=''>Ανακαλύψτε περισσότερα</a>
             </div>
         </div>

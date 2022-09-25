@@ -23,6 +23,9 @@ function App() {
         <Categories image={process.env.PUBLIC_URL + '/showerGel600x600.png'} subtitle='ΑΦΡΟΛΟΥΤΡΑ' />
         <Categories image={process.env.PUBLIC_URL + '/bodyCream_8852-scaled.png'} subtitle='ΚΡΕΜΕΣ ΣΩΜΑΤΟΣ' />
         <Categories image={process.env.PUBLIC_URL + '/faceCream_9774-600x600.png'} subtitle='ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ'/>
+        <Categories image={process.env.PUBLIC_URL + '/showerGel600x600.png'} subtitle='ΑΦΡΟΛΟΥΤΡΑ' />
+        <Categories image={process.env.PUBLIC_URL + '/bodyCream_8852-scaled.png'} subtitle='ΚΡΕΜΕΣ ΣΩΜΑΤΟΣ' />
+        <Categories image={process.env.PUBLIC_URL + '/faceCream_9774-600x600.png'} subtitle='ΚΡΕΜΕΣ ΠΡΟΣΩΠΟΥ'/>
       </div>
       </div>
       <h1 className='title'>ΝΕΕΣ ΑΦΙΞΕΙΣ</h1>
