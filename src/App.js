@@ -134,7 +134,11 @@ function App() {
         <Brands brandLogo={'logo2.png'} />
       </div>
       <Button title={'ΟΛΑ ΤΑ BRANDS'} />
-      <Feature />
+      <div className='feature-wrapper'>
+      <Feature icon={'fast.svg'} text={'Αποστολή σε όλη την Ελλάδα'} />
+      <Feature icon={'return.svg'} text={'Επιστροφές από το σπίτι δωρεάν'} />
+      <Feature icon={'comment.svg'} text={'Ασφαλείς πληρωμές με κάρτα και paypal'} />
+      </div>
 
 
     </div>

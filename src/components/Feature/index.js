@@ -1,10 +1,10 @@
 import './styles.scss'
 
-function Feature() {
+function Feature({ icon, text }) {
     return (
         <div className='feature'>
-            <div>logo</div>
-            <div>text</div>
+            <img className='icon-feature' src={icon}/>
+            <div className='text-feature'>{text}</div>
         </div>
     )
 }
