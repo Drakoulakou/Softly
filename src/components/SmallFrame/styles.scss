@@ -1,5 +1,5 @@
 .small-frame {
-    height: 363px;
+    height: 321px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -9,11 +9,11 @@
 
     .main-title {
         text-align: initial;
-        margin: 0px 0 40px 25px;
+        margin: 0px 0 25px 20px;
     }
 
     p {
-        font-size: 30px;
+        font-size: 24px;
         color: white;
         font-weight: 300;
         letter-spacing: 4px;
@@ -24,9 +24,9 @@
         width: 250px;
         height: 45px;
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 300;
         margin: 0 auto;
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 }

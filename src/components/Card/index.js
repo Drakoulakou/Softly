@@ -7,7 +7,7 @@ function Card({ productImage, title, price, previousPrice, category }) {
             <div className='image-card'>
                 <div className='icons'>
                     <p className='new'>New</p>
-                    <img className='favorite' src={process.env.PUBLIC_URL + '/heart.svg'} />
+                    <img className='favorite' src={process.env.PUBLIC_URL + '/images/heart.svg'} />
                 </div>
                 <div className='product-image' style={{ backgroundImage: `url(${productImage})` }} ></div>
             </div>

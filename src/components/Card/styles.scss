@@ -17,8 +17,12 @@
             color: white;
             font-size: 11px;
             border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
+
     .product-image {
         width: 176px;
         height: 176px;
@@ -48,6 +52,7 @@
                 font-weight: 700;
                 margin: 5px 0 2px;
             }
+
             .previous-price {
                 text-decoration: line-through;
                 color: #9B9B9B;
@@ -56,11 +61,12 @@
                 font-size: 14px;
             }
         }
+
         .category {
             font-size: 10px;
             text-align: left;
             letter-spacing: 0.3px;
-            color: #4d4b4f;
+            color: #a1a1a1;
             margin-top: 0;
         }
     }
