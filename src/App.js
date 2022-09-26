@@ -94,13 +94,15 @@ function App() {
           category={'Scrub σώματος'}
         />
       </div>
-      <Button title={'ΑΓΟΡΑ ΝΕΩΝ ΕΙΔΩΝ'} />
+      <div className='button-buy'>
+        <Button title={'ΑΓΟΡΑ ΝΕΩΝ ΕΙΔΩΝ'} />
+      </div>
       <SmallFrame image={process.env.PUBLIC_URL + '/kids.png'} heightImage={'218px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
       <SmallFrame image={process.env.PUBLIC_URL + '/walkingMan.png'} heightImage={'218px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
       <h1 className='title'>ΕΙΔΑΤΕ ΠΡΟΣΦΑΤΑ</h1>
       <div className='history-carousel'>
         <div className='history'>
-          <Card productImage={'bodyCream_8852-scaled@2x.png'}
+          <Card productImage='bodyCream_8852-scaled@2x.png'
             title={'Grapefruit & Orange Sugar Scrub 550gr'}
             price={'8,00€'}
             previousPrice={'10,00 €'}
@@ -133,11 +135,13 @@ function App() {
         <Brands brandLogo={'logo1.png'} />
         <Brands brandLogo={'logo2.png'} />
       </div>
-      <Button title={'ΟΛΑ ΤΑ BRANDS'} />
+      <div className='button-brands'>
+        <Button title={'ΟΛΑ ΤΑ BRANDS'} />
+      </div>
       <div className='feature-wrapper'>
-      <Feature icon={'fast.svg'} text={'Αποστολή σε όλη την Ελλάδα'} />
-      <Feature icon={'return.svg'} text={'Επιστροφές από το σπίτι δωρεάν'} />
-      <Feature icon={'comment.svg'} text={'Ασφαλείς πληρωμές με κάρτα και paypal'} />
+        <Feature icon={'fast.svg'} text={'Αποστολή σε όλη την Ελλάδα'} />
+        <Feature icon={'return.svg'} text={'Επιστροφές από το σπίτι δωρεάν'} />
+        <Feature icon={'comment.svg'} text={'Ασφαλείς πληρωμές με κάρτα και paypal'} />
       </div>
 
 
