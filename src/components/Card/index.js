@@ -23,7 +23,6 @@ function Card({ productImage, title, price, previousPrice, category }) {
 
         </div>
     )
-
 }
 
 export default Card

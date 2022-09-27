@@ -1,7 +1,7 @@
 import './styles.scss'
 import { useState } from 'react';
 
-function HamburgerMenu(){
+function HamburgerMenu() {
 
     const [closed, setclosed] = useState(true);
 
@@ -9,14 +9,14 @@ function HamburgerMenu(){
         setclosed(!closed)
     }
 
-    return(
+    return (
         <div className='burger-wrapper'>
-         <div onClick={toggleSideMenu}>
-            {closed 
-         ? <div className='burger-icon-menu'><img src={process.env.PUBLIC_URL + 'images/Menu.svg'} /></div>
-         : <div className='close-icon-menu'><img src={process.env.PUBLIC_URL + 'images/closeIcon.png'} /></div>
-         } 
-         </div>
+            <div onClick={toggleSideMenu}>
+                {closed
+                    ? <div className='burger-icon-menu'><img src={process.env.PUBLIC_URL + 'images/Menu.svg'} /></div>
+                    : <div className='close-icon-menu'><img src={process.env.PUBLIC_URL + 'images/closeIcon.png'} /></div>
+                }
+            </div>
 
             <div className={`side-menu ${!closed ? '' : 'closed-menu'}`} >
                 <ul className='main-list-menu'>
@@ -25,7 +25,7 @@ function HamburgerMenu(){
                     <li>ΠΑΙΔΙ</li>
                     <li>BRAND</li>
                 </ul>
-                <hr/>
+                <hr />
                 <ul className='list-column main'>
                     <li>ΡΟΥΧΑ</li>
                     <li>ΠΑΠΟΥΤΣΙΑ</li>
@@ -33,7 +33,7 @@ function HamburgerMenu(){
                     <li>ΟΜΟΡΦΙΑ</li>
                     <li>ΔΗΜΟΦΙΛΕΙΣ ΜΑΡΚΕΣ</li>
                 </ul>
-                <hr/>
+                <hr />
                 <ul className='list-column information'>
                     <li>ΝΕΕΣ ΑΦΙΞΕΙΣ</li>
                     <li>BEACHWEAR</li>
@@ -42,7 +42,7 @@ function HamburgerMenu(){
                     <li>ΤΕΛΕΥΤΑΙΑ ΕΥΚΑΙΡΙΑ</li>
                     <li>FAQ</li>
                 </ul>
-                <hr/>
+                <hr />
                 <ul className='list-column user-information'>
                     <li>Σύνδεση / Δημιουργία λογαριασμού</li>
                     <li>Οι παραγγελίες μου</li>

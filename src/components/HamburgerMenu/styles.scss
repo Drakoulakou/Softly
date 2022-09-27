@@ -12,7 +12,7 @@
     left: 0px;
     overflow-x: hidden;
     transition: 0.5s;
-    
+
     &.closed-menu {
         transition: 0.5s;
         margin-left: -100vw;
@@ -39,16 +39,18 @@
         }
 
         li {
-            margin:8px;
+            margin: 8px;
         }
     }
 }
 
-.close-icon-menu img, .burger-icon-menu img{
+.close-icon-menu img,
+.burger-icon-menu img {
     width: 30px;
     margin-top: 7px;
 }
-.burger-icon-menu{
+
+.burger-icon-menu {
     width: 30px;
     margin-right: 10px;
 
