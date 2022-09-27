@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6b1e4e6.css",
-    "main.js": "/static/js/main.abf2369a.js",
-    "static/js/787.797a4fd2.chunk.js": "/static/js/787.797a4fd2.chunk.js",
-    "index.html": "/index.html",
-    "main.b6b1e4e6.css.map": "/static/css/main.b6b1e4e6.css.map",
-    "main.abf2369a.js.map": "/static/js/main.abf2369a.js.map",
-    "787.797a4fd2.chunk.js.map": "/static/js/787.797a4fd2.chunk.js.map"
+    "main.css": "/Softly/static/css/main.b6b1e4e6.css",
+    "main.js": "/Softly/static/js/main.840ebdb9.js",
+    "static/js/787.797a4fd2.chunk.js": "/Softly/static/js/787.797a4fd2.chunk.js",
+    "index.html": "/Softly/index.html",
+    "main.b6b1e4e6.css.map": "/Softly/static/css/main.b6b1e4e6.css.map",
+    "main.840ebdb9.js.map": "/Softly/static/js/main.840ebdb9.js.map",
+    "787.797a4fd2.chunk.js.map": "/Softly/static/js/787.797a4fd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b1e4e6.css",
-    "static/js/main.abf2369a.js"
+    "static/js/main.840ebdb9.js"
   ]
 }
