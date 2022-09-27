@@ -1,3 +1,4 @@
+import HamburgerMenu from '../HamburgerMenu';
 import './styles.scss';
 
 function Menu() {
@@ -5,8 +6,8 @@ function Menu() {
     return (
         <nav className='nav-bar-menu'>
             <div className='right-menu'>
-                <img className='burger-menu' src={process.env.PUBLIC_URL + '/images/Menu.svg'} />
-                <img className='favorite' src={process.env.PUBLIC_URL + '/images/heart.svg'} />
+                <HamburgerMenu />
+                <img className='favorite' src={process.env.PUBLIC_URL + '/images/heartIcon.svg'} />
             </div>
             <div>
                 <h1 className='logo'>LOGO HERE</h1>
