@@ -13,8 +13,8 @@ function HamburgerMenu() {
         <div className='burger-wrapper'>
             <div onClick={toggleSideMenu}>
                 {closed
-                    ? <div className='burger-icon-menu'><img src={process.env.PUBLIC_URL + 'images/Menu.svg'} /></div>
-                    : <div className='close-icon-menu'><img src={process.env.PUBLIC_URL + 'images/closeIcon.png'} /></div>
+                    ? <div className='burger-icon-menu'><img src={process.env.PUBLIC_URL + '/images/Menu.svg'} /></div>
+                    : <div className='close-icon-menu'><img src={process.env.PUBLIC_URL + '/images/closeIcon.png'} /></div>
                 }
             </div>
 
