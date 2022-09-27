@@ -3,4 +3,4 @@
 
 ## Made with React
 
-<a href=''>View Live</a>
+<a href='https://drakoulakou.github.io/Softly/'>View Live</a>
