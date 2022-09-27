@@ -98,8 +98,8 @@ function App() {
         <Button title={'ΑΓΟΡΑ ΝΕΩΝ ΕΙΔΩΝ'} />
       </div>
       <div className='smallFrame-wrapper'>
-      <SmallFrame image={process.env.PUBLIC_URL + '/images/kids.png'} heightImage={'196px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
-      <SmallFrame image={process.env.PUBLIC_URL + '/images/walkingMan.png'} heightImage={'196px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
+        <SmallFrame image={process.env.PUBLIC_URL + '/images/kids.png'} heightImage={'196px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
+        <SmallFrame image={process.env.PUBLIC_URL + '/images/walkingMan.png'} heightImage={'196px'} marginImage={'20px'} marginTitle={'0px 0 10px 25px'} />
       </div>
       <h1 className='title'>ΕΙΔΑΤΕ ΠΡΟΣΦΑΤΑ</h1>
       <div className='history-carousel'>
